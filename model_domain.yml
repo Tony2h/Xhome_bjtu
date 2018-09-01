@@ -1,1 +1,91 @@
 编写一个文件 domain.yml 用来放置所有的意图名字、 所有用来回答的意图的名字 和 每个回答意图的回答语句（这个主要是用来声明这个项目支持用户问哪类问题，声明能做出哪种回答， 以及部分不涉及逻辑，可以直接回答的问题）
+
+intents:
+  - greet
+  - goodbye
+  - mood_affirm
+  - mood_deny
+  - mood_great
+  - mood_unhappy
+  - op_open
+  - op_close
+  - op_high
+  - op_down
+  - op_change
+  - op_query
+
+actions:
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - open_tv
+  - open_aircdt
+  - open_light
+  - open_door
+  - open_window
+  - open_music
+  - open_shower
+  - open_laundry
+  - open_sweep
+  - open_curtain
+  - open_sofa
+  - open_monitor
+  - close_tv
+  - close_aircdt
+  - close_light
+  - close_door
+  - close_window
+  - close_music
+  - close_shower
+  - close_laundry
+  - close_sweep
+  - close_curtain
+  - close_sofa
+  - close_monitor
+  - high_temp_aitcdt
+  - high_temp_shower
+  - high_volume_music
+  - high_volume_tv
+  - high_fanSpeed
+  - down_temp_aitcdt
+  - down_temp_shower
+  - down_volume_music
+  - down_volume_tv
+  - down_fanSpeed
+  - change_tv_plus_1
+  - change_tv_minus_1
+  - change_tv_specify
+  - change_music_last
+  - change_music_next
+  - change_music_singleCycle
+  - change_music_cycle
+  - change_music_random
+  - change_aircdt_cool
+  - change_aircdt_heat
+  - change_aircdt_dry
+  - change_aircdt_fanspeed_auto
+  - change_aircdt_sleep
+  - query_temp
+  - query_humi
+  - query_time
+  - query_weather
+
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
