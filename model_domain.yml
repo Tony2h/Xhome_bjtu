@@ -30,6 +30,7 @@ intents:
 
 entities：
   - op
+  - furniture
   - mode
   - movie_name
   - people_name
