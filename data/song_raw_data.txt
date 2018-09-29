@@ -81,18 +81,18 @@ text,intent,style
 
 
 text,intent,singer,style
-我想听周杰伦的情歌|request_management|周杰伦,情歌
-我想听汪峰的民谣|request_management|汪峰,民谣
-我想听五月天的情歌|request_management|五月天,情歌
-我想听五月天的摇滚|request_management|五月天,摇滚
-我想听邓紫棋的英文歌|request_management|邓紫棋,英文
-我想听邓紫棋的粤语歌|request_management|邓紫棋,粤语
-我想听汪峰的励志歌|request_management|汪峰,欢快
-来首邓紫棋的英文歌|request_management|邓紫棋,英文
-来首邓紫棋的粤语歌|request_management|邓紫棋,粤语
-来首薛之谦的情歌|request_management|薛之谦,情歌
-来首方大同的英文歌|request_management|方大同,英文
-来首方大同的中文歌|request_management|方大同,中文
+我想听周杰伦的情歌|request_search|周杰伦,情歌
+我想听汪峰的民谣|request_search|汪峰,民谣
+我想听五月天的情歌|request_search|五月天,情歌
+我想听五月天的摇滚|request_search|五月天,摇滚
+我想听邓紫棋的英文歌|request_search|邓紫棋,英文
+我想听邓紫棋的粤语歌|request_search|邓紫棋,粤语
+我想听汪峰的励志歌|request_search|汪峰,励志
+来首邓紫棋的英文歌|request_search|邓紫棋,英文
+来首邓紫棋的粤语歌|request_search|邓紫棋,粤语
+来首薛之谦的情歌|request_search|薛之谦,情歌
+来首方大同的英文歌|request_search|方大同,英文
+来首方大同的中文歌|request_search|方大同,中文
 
 
 
@@ -111,6 +111,11 @@ text,intent,style
 欢快一点的|inform_style|欢快
 悲伤一点的|inform_style|悲伤
 情歌吧|inform_style|情歌
+流行的|inform_style|流行
+古典音乐|inform_style|古典
+当然是浪漫的啦|inform_style|浪漫
+轻音乐|inform_style|轻音乐
+民谣|inform_style|民谣
 
 text,intent
 你好|greet
@@ -126,6 +131,8 @@ text,intent
 拜拜|goodbye
 很高兴和你说话|goodbye
 好的|confirm
+没问题的|confirm
+OK|confirm
 行|confirm
 可以的|confirm
 中中|confirm
@@ -136,25 +143,24 @@ text,intent
 没问题|confirm
 恩|confirm
 嗯|confirm
-不要|deny
-不需要|deny
-不要办|deny
-不办|deny
-暂时不要了|deny
-不是|deny
-有问题|deny
-我再考虑考虑|deny
-不好啦|deny
-不行|deny
-不可以的|deny
-不中|deny
-不可以|deny
-没了|deny
-没有了|deny
-不用了|deny
-暂时不用了|deny
-好的没了|deny
-好不用了|deny
+不要播放了|end
+停止播放|end
+停|end
+不播放了|end
+关机吧|end
+不好听|end
+这首歌不行|end
+关上吧|end
+不听了|end
+不想听了|end
+暂时不要了|satisfy
+不要了|satisfy
+没了|satisfy
+没有了|satisfy
+不用了|satisfy
+暂时不用了|satisfy
+好的没了|satisfy
+好不用了|satisfy
 谢谢|thanks
 谢谢您|thanks
 谢谢你|thanks
