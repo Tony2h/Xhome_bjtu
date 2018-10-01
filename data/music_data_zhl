@@ -1,0 +1,37 @@
+## Generated Story 5697831356519376206
+* greet
+    - utter_greet
+* inform_style{"style": "\u6b22\u5feb"}
+    - slot{"style": "\u6b22\u5feb"}
+    - action_search_listen
+* inform_name{"name": "\u544a\u767d\u6c14\u7403"}
+    - slot{"name": "\u544a\u767d\u6c14\u7403"}
+    - action_search_listen
+    - action_search_listen
+* inform_singer{"singer": "\u5468\u6770\u4f26"}
+    - slot{"singer": "\u5468\u6770\u4f26"}
+    - action_search_consume
+    - export
+
+## Generated Story -4229886833255162083
+* greet
+    - utter_greet
+* inform_name{"name": "\u6012\u653e\u7684\u751f\u547d"}
+    - slot{"name": "\u6012\u653e\u7684\u751f\u547d"}
+    - action_search_listen
+* inform_singer{"singer": "\u6c6a\u5cf0"}
+    - slot{"singer": "\u6c6a\u5cf0"}
+    - action_search_listen
+* request_search
+    - action_search_consume
+    - export
+
+## Generated Story 1434729922732292628
+* confirm
+    - action_search_listen
+* request_search{"name": "\u8bb8\u5c11\u5e74"}
+    - slot{"name": "\u8bb8\u5c11\u5e74"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+    - export
