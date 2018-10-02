@@ -11,12 +11,20 @@ text,intent,item
 音乐|request_search|音乐
 播放音乐|request_search|音乐
 听音乐|request_search|音乐
-恩你好啊给我放一首歌吧|request_search|歌
-嗯你好啊给我播放音乐吧|request_search|音乐
-恩你好啊我想听音乐|request_search|音乐
+你好啊,给我放一首歌吧|request_search|歌
+你好,给我播放音乐吧|request_search|音乐
+你好啊,我想听音乐|request_search|音乐
 我想听一首好听的歌曲|request_search|歌曲
 你给我播一首歌|request_search|歌
 能不能放点好听的歌|request_search|歌
+来首曲子吧|request_search|曲子
+来首歌|request_search|歌
+放一首歌听|request_search|歌
+我想听音乐了|request_search|音乐
+播放几首音乐|request_search|音乐
+好久没有听音乐了|request_search|音乐
+现在想听点音乐|request_search|音乐
+推荐几首曲子呗|request_search|曲子
 
 text,intent,singer
 我想听周杰伦的歌|request_search|周杰伦
@@ -33,15 +41,23 @@ text,intent,singer
 放一首林宥嘉的歌|request_search|林宥佳
 放一首华晨宇的歌|request_search|华晨宇
 放一首周笔畅的歌吧|request_search|周笔畅
+整首朴树的歌听听|request_search|朴树
+有毛不易的歌曲吗|request_search|毛不易
+我最近想听毛不易的歌|request_search|毛不易
+来一首庾澄庆的新歌|request_search|庾澄庆
+播放林志炫的歌|request_search|林志炫
+我要听张学友|request_search|张学友
+
 
 text,intent,name
 我想听告白气球|request_search|告白气球
+我要听消愁|request_search|消愁
 我想听演员|request_search|演员
 我想听夜空中最亮的星|request_search|夜空中最亮的星
 来首夜空中最亮的星|request_search|夜空中最亮的星
 来首李白|request_search|李白
 一首纸短情长|request_search|纸短情长
-来一首平凡的路|request_search|平凡的路
+来一首平凡之路|request_search|平凡之路
 给我来一首情非得已|request_search|情非得已
 来首追梦赤子心|request_search|追梦赤子心
 来首空空如也|request_search|空空如也
@@ -78,7 +94,8 @@ text,intent,style
 来首韩文歌吧|request_search|韩文
 来首粤语歌|request_search|粤语
 来首中文歌|request_search|中文
-
+有伤感的歌单么|request_search|伤感
+流行|request_search|流行
 
 text,intent,singer,style
 我想听周杰伦的情歌|request_search|周杰伦,情歌
@@ -97,10 +114,14 @@ text,intent,singer,style
 
 
 text,intent,singer
-周杰伦的|inform_singer|周杰伦
+周杰伦的歌|inform_singer|周杰伦
 花粥的|inform_singer|花粥
 李健的|inform_singer|李健
 汪峰的|inform_singer|汪峰
+赵雷|inform_singer|赵雷
+花粥|inform_singer|花粥
+朴树|inform_singer|朴树
+薛之谦|inform_singer|薛之谦
 
 text,intent,name
 告白气球吧|inform_name|告白气球
@@ -120,6 +141,11 @@ text,intent,style
 text,intent
 你好|greet
 您好|greet
+你好呀|greet
+你好吗|greet
+在吗|greet
+哈喽|greet
+嗨喽|greet
 您好吗|greet
 嗨|greet
 喂|greet
@@ -141,6 +167,9 @@ OK|confirm
 办理吧|confirm
 行的|confirm
 没问题|confirm
+太好了|confirm
+太棒啦|confirm
+优秀|confirm
 恩|confirm
 嗯|confirm
 不要播放了|end
@@ -161,6 +190,9 @@ OK|confirm
 暂时不用了|satisfy
 好的没了|satisfy
 好不用了|satisfy
+都可以|satisfy
+无所谓|satisfy
+都行|satisfy
 谢谢|thanks
 谢谢您|thanks
 谢谢你|thanks
