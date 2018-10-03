@@ -62,6 +62,13 @@ text,intent,name
 来首追梦赤子心|request_search|追梦赤子心
 来首空空如也|request_search|空空如也
 
+
+
+
+
+
+
+
 text,intent,singer,name
 给我放一首汪峰的像梦一样自由|request_search|汪峰,像梦一样自由
 给我放一首五月天的拥抱|request_search|五月天,拥抱
@@ -75,6 +82,14 @@ text,intent,singer,name
 我想听华晨宇的烟火里的尘埃|request_search|华晨宇,烟火里的尘埃
 我想听许嵩的惊鸿一面|request_search|许嵩,惊鸿一面
 我想听花粥的纸短情长|request_search|花粥,纸短情长
+
+
+
+
+
+
+
+
 
 text,intent,style
 我想听情歌|request_search|情歌
@@ -113,6 +128,13 @@ text,intent,singer,style
 
 
 
+
+
+
+
+
+
+
 text,intent,singer
 周杰伦的歌|inform_singer|周杰伦
 花粥的|inform_singer|花粥
@@ -123,10 +145,26 @@ text,intent,singer
 朴树|inform_singer|朴树
 薛之谦|inform_singer|薛之谦
 
+
+
+
+
+
+
+
 text,intent,name
 告白气球吧|inform_name|告白气球
 像梦一样自由吧|inform_name|像梦一样自由
 纸短情长吧|inform_name|纸短情长
+
+
+
+
+
+
+
+
+
 
 text,intent,style
 欢快一点的|inform_style|欢快
@@ -135,8 +173,37 @@ text,intent,style
 流行的|inform_style|流行
 古典音乐|inform_style|古典
 当然是浪漫的啦|inform_style|浪漫
+浪漫一点|inform_style|浪漫
+浪漫爱情|inform_style|浪漫
+此刻需要浪漫|inform_style|浪漫
+气氛浪漫一点|inform_style|浪漫
 轻音乐|inform_style|轻音乐
+纯音|inform_style|纯音
+纯音乐|inform_style|纯音乐
 民谣|inform_style|民谣
+古典的|inform_style|古典
+摇滚音乐|inform_style|摇滚
+摇滚啊|inform_style|摇滚
+激情摇滚|inform_style|摇滚
+兴奋一点的|inform_style|兴奋
+我想兴奋一点|inform_style|兴奋
+我现在好兴奋|inform_style|兴奋
+让我兴奋一点|inform_style|兴奋
+我需要治愈|inform_style|治愈
+我想要治愈|inform_style|治愈
+有治愈的吗|inform_style|治愈
+治愈的|inform_style|治愈
+来些伤感的|inform_style|伤感
+感伤的|inform_style|感伤
+我很伤感|inform_style|伤感
+我现在很伤心|inform_style|伤心
+有哪些经典音乐|inform_style|经典
+经典的|inform_style|经典
+经典的老歌|inform_style|经典
+思念的歌|inform_style|思念
+表达思念的|inform_style|思念
+古色古风|inform_style|古风
+古风歌|inform_style|古风
 
 text,intent
 你好|greet
@@ -161,6 +228,10 @@ text,intent
 OK|confirm
 行|confirm
 可以的|confirm
+喜欢|confirm
+不错|confirm
+很不错|confirm
+棒|confirm
 中中|confirm
 中|confirm
 办吧|confirm
@@ -175,12 +246,16 @@ OK|confirm
 不要播放了|end
 停止播放|end
 停|end
+行了行了|end
+我不听这个|end
+不听|end
 不播放了|end
 关机吧|end
 不好听|end
 这首歌不行|end
 关上吧|end
 不听了|end
+别放了|end
 不想听了|end
 暂时不要了|satisfy
 不要了|satisfy
@@ -199,3 +274,6 @@ OK|confirm
 非常感谢|thanks
 谢谢啊|thanks
 谢了|thanks
+麻烦了|thanks
+麻烦您了|thanks
+麻烦你了|thanks
