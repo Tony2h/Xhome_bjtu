@@ -136,3 +136,134 @@
     - utter_thanks
     - export
 
+## Generated Story -7957719373023426495
+* greet
+    - utter_greet
+* greet{"name": "\u4e5d\u6708"}
+    - slot{"name": "\u4e5d\u6708"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+    - export
+
+## Generated Story 2846746796874307240
+* greet
+    - utter_greet
+* request_search{"name": "\u4e5d\u6708"}
+    - slot{"name": "\u4e5d\u6708"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
+## Generated Story -3300378570730439806
+* greet
+    - utter_greet
+* greet{"name": "\u4e5d\u6708"}
+    - slot{"name": "\u4e5d\u6708"}
+    - action_search_listen
+* confirm{"singer": "\u674e\u5fd7"}
+    - slot{"singer": "\u674e\u5fd7"}
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
+## Generated Story -2850979242041862709
+* greet
+    - utter_greet
+* request_search{"name": "\u4f73\u4f73"}
+    - slot{"name": "\u4f73\u4f73"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* goodbye
+    - utter_goodbye
+    - export
+
+## Generated Story 3096006344707648341
+* greet
+    - utter_greet
+* request_search{"name": "\u732b"}
+    - slot{"name": "\u732b"}
+    - action_search_listen
+* inform_singer
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
+## Generated Story -4324676049751525767
+* greet
+    - utter_greet
+* request_search{"singer": "\u8d75\u96f7"}
+    - slot{"singer": "\u8d75\u96f7"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
+## Generated Story -3756085782468357513
+* greet
+    - utter_greet
+* request_search{"style": "\u6447\u6eda"}
+    - slot{"style": "\u6447\u6eda"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
+## Generated Story -4503899585468648686
+* greet
+    - utter_greet
+* request_search{"singer": "\u9648\u7c92"}
+    - slot{"singer": "\u9648\u7c92"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
+## Generated Story -2870804407113621257
+* greet
+    - utter_greet
+* request_search{"name": "\u7c73\u5e97"}
+    - slot{"name": "\u7c73\u5e97"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
+## Generated Story -6829146759007348765
+* greet
+    - utter_greet
+* request_search{"style": "\u6447\u6eda"}
+    - slot{"style": "\u6447\u6eda"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
+## Generated Story 393548311654766779
+* greet
+    - utter_greet
+* request_search{"singer": "\u9648\u7c92"}
+    - slot{"singer": "\u9648\u7c92"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
