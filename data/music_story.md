@@ -487,4 +487,16 @@
     - utter_thanks
     - export
 
+## Generated Story 2160958005608676746
+* greet
+    - utter_greet
+* inform_name{"name": "\u7eb8\u77ed\u60c5\u957f"}
+    - slot{"name": "\u7eb8\u77ed\u60c5\u957f"}
+    - action_search_listen
+* inform_style{"style": "\u5f53\u7136", "singer": "\u82b1\u7ca5"}
+    - slot{"singer": "\u82b1\u7ca5"}
+    - slot{"style": "\u5f53\u7136"}
+    - action_search_listen
+    - action_search_consume
+    - export
 
