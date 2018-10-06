@@ -19,7 +19,12 @@ text,intent,singer
 来一首庾澄庆的新歌|request_search|庾澄庆
 播放林志炫的歌|request_search|林志炫
 我要听张学友|request_search|张学友
-
+我喜欢王菲的|request_search|王菲
+我喜欢张杰的|request_search|张杰
+我喜欢刘欢的|request_search|刘欢
+我喜欢花粥的|request_search|花粥
+我喜欢华晨宇的歌|request_search|华晨宇
+我喜欢许嵩的歌|request_search|许嵩
 
 text,intent,name
 我想听告白气球|request_search|告白气球
@@ -58,6 +63,10 @@ text,intent,singer,name
 莫文蔚版的电台情歌|request_search|莫文蔚,电台情歌
 我喜欢杨宗纬的初爱|request_search|杨宗纬,初爱
 我最近爱听林宥嘉唱的成全|request_search|林宥嘉,成全
+我喜欢周杰伦的告白气球|request_search|周杰伦,告白气球
+我喜欢汪峰的怒放的生命|request_search|汪峰,怒放的生命
+我喜欢赵雷的理想|request_search|赵雷,理想
+我喜欢赵雷的成都|request_search|赵雷,成都
 
 text,intent,style
 我想听情歌|request_search|情歌
@@ -70,15 +79,22 @@ text,intent,style
 我想听首悲伤的歌|request_search|悲伤
 我想听适合跑步听的音乐|request_search|跑步
 我想听适合工作听的音乐|request_search|工作
-我想听令人兴奋的歌|request_search|欢快
-我想听刺激的歌|request_search|欢快
+我想听令人兴奋的歌|request_search|兴奋
+我想听刺激的歌|request_search|刺激
 我想听安静的歌|request_search|安静
-我想听郁闷的歌|request_search|悲伤
+我想听郁闷的歌|request_search|郁闷
 来首韩文歌吧|request_search|韩文
 来首粤语歌|request_search|粤语
 来首中文歌|request_search|中文
 有伤感的歌单么|request_search|伤感
 流行|request_search|流行
+我喜欢流行的|request_search|流行
+我喜欢摇滚|request_search|摇滚
+我喜欢郁闷的|request_search|郁闷
+我喜欢英文歌|request_search|英文
+我喜欢兴奋的|request_search|兴奋
+我喜欢安静的|request_search|安静
+我喜欢欢快的|request_search|欢快
 
 text,intent,singer,style
 我想听周杰伦的情歌|request_search|周杰伦,情歌
@@ -94,6 +110,10 @@ text,intent,singer,style
 来首方大同的英文歌|request_search|方大同,英文
 来首方大同的中文歌|request_search|方大同,中文
 听听孙燕姿的经典歌曲吧|request_search|孙燕姿,经典
+我喜欢周杰伦的情歌|request_search|周杰伦,情歌
+我喜欢赵雷的民谣|request_search|赵雷,民谣
+我喜欢花粥的摇滚|request_search|花粥,摇滚
+我喜欢周笔畅的流行歌|request_search|周笔畅,流行
 
 text,intent,singer
 周杰伦的歌|inform_singer|周杰伦
