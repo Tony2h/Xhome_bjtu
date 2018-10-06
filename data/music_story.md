@@ -500,3 +500,13 @@
     - action_search_consume
     - export
 
+## Generated Story 413885931547207264
+* greet
+    - utter_greet
+* request_search{"name": "\u6012\u653e\u7684\u751f\u547d"}
+    - slot{"name": "\u6012\u653e\u7684\u751f\u547d"}
+    - action_search_listen
+* inform_singer{"singer": "\u6c6a\u5cf0"}
+    - slot{"singer": "\u6c6a\u5cf0"}
+    - action_search_consume
+    - export
