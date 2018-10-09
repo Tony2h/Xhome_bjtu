@@ -1,0 +1,63 @@
+slots:
+  name:
+    type: text
+  singer:
+    type: text
+  style:
+    type: text
+
+intents:
+  - greet
+  - confirm
+  - goodbye
+  - thanks
+  - inform_singer
+  - inform_style
+  - inform_name
+  - request_search
+  - end
+  - satisfy
+
+entities:
+  - name
+  - singer
+  - style
+
+templates:
+  utter_greet:
+    - "您好!我是小歌，很高兴为您服务。请问您有喜爱的歌手吗？"
+    - "您好!我是小歌，很高兴为您服务。请问您有偏爱的音乐风格吗？"
+    - "您好!我是小歌，很高兴为您服务。请问您有想听的曲目吗？"
+    - "你好!我是小歌，可以帮您播放喜欢的音乐。请问您有喜爱的歌手吗？"
+    - "你好!我是小冰的妹妹交大小歌，可以帮您播放喜欢的音乐。请问您有偏爱的音乐风格吗？"
+    - "你好!我是小歌，可以帮您播放喜欢的音乐。请问您有想听的曲目吗？"
+  utter_goodbye:
+    - "再见，为您服务很开心"
+    - "Bye，下次再见"
+  utter_default:
+    - "对不起,没能找到您所需要的信息,目前我们只能提供查询歌曲,歌手,歌曲风格的服务"
+  utter_thanks:
+    - "不用谢"
+    - "我应该做的"
+    - "您开心我就开心"
+  utter_ask_singer:
+    - "好哒,请问您还有别的需求吗?比如:喜欢的歌手"
+    - "get了,请问您还喜欢哪位歌手吗?"
+  utter_ask_style:
+    - "好哒,请问您还有别的需求吗?比如:喜欢的风格"
+    - "get了,请问您还喜欢什么风格的音乐吗?我们可以为您提供情歌,民谣,"
+    - "好哒,请问您还有喜欢的音乐风格吗?我们有如下风格音乐供您选择：兴奋,浪漫,民谣,放松,摇滚,流行,怀旧等等~"
+  utter_ask_name:
+    - "好哒,请问您还有别的需求吗?比如:喜欢的音乐"
+    - "get了,请问您有喜欢听的歌曲吗?"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_default
+  - utter_thanks
+  - utter_ask_singer
+  - utter_ask_style
+  - utter_ask_name
+  - bot.ActionSearchListen
+  - bot.ActionSearchConsume
