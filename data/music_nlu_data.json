@@ -1,0 +1,2698 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "我想听周杰伦的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "周杰伦",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "给我放一首李健的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "李健",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我想听李健的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "李健",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我想听梁静茹的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "梁静茹",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我想听花粥姐姐的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "花粥",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我想听李荣浩的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "李荣浩",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "给我来首薛之谦的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "薛之谦",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我想听个许嵩的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "许嵩",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我想听林俊杰的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "林俊杰",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "听听周杰伦的歌吧",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "周杰伦",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "听一首王菲的歌吧",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "王菲",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "放一首林宥嘉的歌",
+        "intent": "request_search",
+        "entities": []
+      },
+      {
+        "text": "放一首华晨宇的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "华晨宇",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "放一首周笔畅的歌吧",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "周笔畅",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "整首朴树的歌听听",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "朴树",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "有毛不易的歌曲吗",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "毛不易",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我最近想听毛不易的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "毛不易",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "来一首庾澄庆的新歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "庾澄庆",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "播放林志炫的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "林志炫",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我要听张学友",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "张学友",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢王菲的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "王菲",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢张杰的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "张杰",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢刘欢的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "刘欢",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢花粥的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "花粥",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢华晨宇的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "华晨宇",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢许嵩的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "许嵩",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我想听告白气球",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "告白气球",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我要听消愁",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "消愁",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听演员",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "演员",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听夜空中最亮的星",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "夜空中最亮的星",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "来首夜空中最亮的星",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 9,
+            "value": "夜空中最亮的星",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "来首李白",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "李白",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "一首纸短情长",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "纸短情长",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "来一首平凡之路",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "平凡之路",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "给我来一首情非得已",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "情非得已",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "来首追梦赤子心",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 7,
+            "value": "追梦赤子心",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "来首空空如也",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "空空如也",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "给我放一首汪峰的像梦一样自由",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "汪峰",
+            "entity": "singer"
+          },
+          {
+            "start": 8,
+            "end": 14,
+            "value": "像梦一样自由",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "给我放一首五月天的拥抱",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "五月天",
+            "entity": "singer"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "拥抱",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "给我来一首汪峰的怒放的生命",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "汪峰",
+            "entity": "singer"
+          },
+          {
+            "start": 8,
+            "end": 13,
+            "value": "怒放的生命",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "来一首周杰伦的鞋子特大号",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "周杰伦",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 12,
+            "value": "鞋子特大号",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "来一首邓紫棋的夜空中最亮的星",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "邓紫棋",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 14,
+            "value": "夜空中最亮的星",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "来个李荣浩的李白",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "李荣浩",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "李白",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听周杰伦的告白气球",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "周杰伦",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "告白气球",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听许嵩的山水之间",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "许嵩",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "山水之间",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听周杰伦的双截棍",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "周杰伦",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "双截棍",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听华晨宇的烟火里的尘埃",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "华晨宇",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 13,
+            "value": "烟火里的尘埃",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听许嵩的惊鸿一面",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "许嵩",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "惊鸿一面",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听花粥的纸短情长",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "花粥",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "纸短情长",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我要听花粥姐姐的盗将行",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "花粥",
+            "entity": "singer"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "盗将行",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "花粥唱的遥不可及的你",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "花粥",
+            "entity": "singer"
+          },
+          {
+            "start": 4,
+            "end": 10,
+            "value": "遥不可及的你",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "花粥大爷的二十岁的某一天",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "花粥",
+            "entity": "singer"
+          },
+          {
+            "start": 5,
+            "end": 12,
+            "value": "二十岁的某一天",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "借我，谢春花唱的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "谢春花",
+            "entity": "singer"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "借我",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "张悬，喜欢",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "张悬",
+            "entity": "singer"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "喜欢",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听张国荣的风再起时了",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "张国荣",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "风再起时",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "谢春花荒岛",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "谢春花",
+            "entity": "singer"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "荒岛",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "赵梓骅的可乐",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "赵梓骅",
+            "entity": "singer"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "可乐",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "莫文蔚版的电台情歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "莫文蔚",
+            "entity": "singer"
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "value": "电台情歌",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢杨宗纬的初爱",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "杨宗纬",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "初爱",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我最近爱听林宥嘉唱的成全",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "林宥嘉",
+            "entity": "singer"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "成全",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢周杰伦的告白气球",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "周杰伦",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "告白气球",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢汪峰的怒放的生命",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "汪峰",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "value": "怒放的生命",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢赵雷的理想",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "赵雷",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "理想",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢赵雷的成都",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "赵雷",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "成都",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听情歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "情歌",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听摇滚",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "摇滚",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听英文歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "英文",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听首吉他曲",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "吉他",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听首钢琴",
+        "intent": "request_search",
+        "entities": []
+      },
+      {
+        "text": "我想听粤语歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "粤语",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听首欢快的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "欢快",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听首悲伤的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "悲伤",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听适合跑步听的音乐",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "跑步",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听适合工作听的音乐",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "工作",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听令人兴奋的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "兴奋",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听刺激的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "刺激",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听安静的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "安静",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听郁闷的歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "郁闷",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "来首韩文歌吧",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "韩文",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "来首粤语歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "粤语",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "来首中文歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "中文",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "有伤感的歌单么",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "伤感",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "流行",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "流行",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢流行的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "流行",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢摇滚",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "摇滚",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢郁闷的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "郁闷",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢英文歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "英文",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢兴奋的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "兴奋",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢安静的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "安静",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢欢快的",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "欢快",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听周杰伦的情歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "周杰伦",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "情歌",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听汪峰的民谣",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "汪峰",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "民谣",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听五月天的情歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "五月天",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "情歌",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听五月天的摇滚",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "五月天",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "摇滚",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听邓紫棋的英文歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "邓紫棋",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "英文",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听邓紫棋的粤语歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "邓紫棋",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "粤语",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想听汪峰的励志歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "汪峰",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "励志",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "来首邓紫棋的英文歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "邓紫棋",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "英文",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "来首邓紫棋的粤语歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "邓紫棋",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "粤语",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "来首薛之谦的情歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "薛之谦",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "情歌",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "来首方大同的英文歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "方大同",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "英文",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "来首方大同的中文歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "方大同",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "中文",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "听听孙燕姿的经典歌曲吧",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "孙燕姿",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "经典",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢周杰伦的情歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "周杰伦",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "情歌",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢赵雷的民谣",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "赵雷",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "民谣",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢花粥的摇滚",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "花粥",
+            "entity": "singer"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "摇滚",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢周笔畅的流行歌",
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "周笔畅",
+            "entity": "singer"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流行",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "周杰伦的歌",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "周杰伦",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "花粥的",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "花粥",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "李健的",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "李健",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "汪峰的",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "汪峰",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "赵雷",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "赵雷",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "花粥",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "花粥",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "朴树",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "朴树",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "薛之谦",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "薛之谦",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢林宥嘉",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "林宥嘉",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我爱李荣浩",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "李荣浩",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我是张杰的粉丝",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "张杰",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我是谢春花的头号粉丝",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "谢春花",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我可是林俊杰的死忠粉",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "林俊杰",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "我只听张学友",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "张学友",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "今天听陈泓宇吧",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "陈泓宇",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "好久不听赵雷了",
+        "intent": "inform_singer",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "赵雷",
+            "entity": "singer"
+          }
+        ]
+      },
+      {
+        "text": "告白气球吧",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "告白气球",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "像梦一样自由吧",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "像梦一样自由",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "纸短情长吧",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "纸短情长",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "李荣浩的老街",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "老街",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "说散就散",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "说散就散",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "听浪费",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "浪费",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "最近很火的让我做你的眼睛",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "让我做你的眼睛",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我想听成全",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "成全",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "我喜欢我们不该这样的",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "我们不该这样的",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "说唱信仰",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "信仰",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "可乐",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "可乐",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "经典的后来",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "后来",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "大圣归来的主题曲孙大圣吧",
+        "intent": "inform_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "孙大圣",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "欢快一点的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "欢快",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "悲伤一点的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "悲伤",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "情歌吧",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "情歌",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "流行的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "流行",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "古典音乐",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "古典",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "当然是浪漫的啦",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "浪漫",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "浪漫一点",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "浪漫",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "浪漫爱情",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "浪漫",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "此刻需要浪漫",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "浪漫",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "气氛浪漫一点",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "浪漫",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "轻音乐",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "轻音乐",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "纯音",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "纯音",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "纯音乐",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "纯音乐",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "民谣",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "民谣",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "古典的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "古典",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "摇滚音乐",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "摇滚",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "摇滚啊",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "摇滚",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "激情摇滚",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "摇滚",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "兴奋一点的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "兴奋",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想兴奋一点",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "兴奋",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我现在好兴奋",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "兴奋",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "让我兴奋一点",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "兴奋",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我需要治愈",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "治愈",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我想要治愈",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "治愈",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "有治愈的吗",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "治愈",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "治愈的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "治愈",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "来些伤感的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "伤感",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "感伤的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "感伤",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我很伤感",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "伤感",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "我现在很伤心",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "伤心",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "有哪些经典音乐",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "经典",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "经典的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "经典",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "经典的老歌",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "经典",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "思念的歌",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "思念",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "表达思念的",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "思念",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "古色古风",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "古风",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "古风歌",
+        "intent": "inform_style",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "古风",
+            "entity": "style"
+          }
+        ]
+      },
+      {
+        "text": "你好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你好呀",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你好吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "在吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "哈喽",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "嗨喽",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您好吗",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "嗨",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "喂",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是谁",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "您是",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "你是哪个",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "啊",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "再见",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "拜拜",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "很高兴和你说话",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "好的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "没问题的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "OK",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "可以的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "喜欢",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "不错",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "很不错",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "棒",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "中",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "办理吧",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "行的",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "没问题",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "太好了",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "太棒啦",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "优秀",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "恩",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "嗯",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "不要播放了",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "停止播放",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "停",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "行了行了",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "我不听这个",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "不听",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "不播放了",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "关机吧",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "不好听",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "这首歌不行",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "关上吧",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "不听了",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "别放了",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "不想听了",
+        "intent": "end",
+        "entities": []
+      },
+      {
+        "text": "暂时不要了",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "不要了",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "没了",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "没有了",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "不用了",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "暂时不用了",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "好的没了",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "好不用了",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "都可以",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "无所谓",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "都行",
+        "intent": "satisfy",
+        "entities": []
+      },
+      {
+        "text": "谢谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢您",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢你",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "非常感谢",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢谢啊",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "谢了",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "麻烦了",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "麻烦您了",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "麻烦你了",
+        "intent": "thanks",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "欢快",
+        "synonyms": ["刺激","兴奋"]
+      },
+      {
+         "value":"悲伤",
+         "synonyms":["郁闷"]
+      }
+    ]
+  }
+}
