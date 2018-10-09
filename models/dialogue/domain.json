@@ -1,0 +1,32 @@
+{
+  "states": [
+    "intent_confirm",
+    "intent_end",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_inform_name",
+    "intent_inform_singer",
+    "intent_inform_style",
+    "intent_request_search",
+    "intent_satisfy",
+    "intent_thanks",
+    "entity_name",
+    "entity_singer",
+    "entity_style",
+    "slot_name_0",
+    "slot_singer_0",
+    "slot_style_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_default",
+    "prev_utter_thanks",
+    "prev_utter_ask_singer",
+    "prev_utter_ask_style",
+    "prev_utter_ask_name",
+    "prev_action_search_listen",
+    "prev_action_search_consume"
+  ]
+}

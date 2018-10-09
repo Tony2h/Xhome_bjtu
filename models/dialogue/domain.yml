@@ -1,0 +1,87 @@
+%YAML 1.1
+---
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_thanks
+- utter_ask_singer
+- utter_ask_style
+- utter_ask_name
+- action_search_listen
+- action_search_consume
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_thanks
+- utter_ask_singer
+- utter_ask_style
+- utter_ask_name
+- bot.ActionSearchListen
+- bot.ActionSearchConsume
+config:
+  store_entities_as_slots: true
+entities:
+- name
+- singer
+- style
+intents:
+- greet:
+    use_entities: true
+- confirm:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- thanks:
+    use_entities: true
+- inform_singer:
+    use_entities: true
+- inform_style:
+    use_entities: true
+- inform_name:
+    use_entities: true
+- request_search:
+    use_entities: true
+- end:
+    use_entities: true
+- satisfy:
+    use_entities: true
+slots:
+  name:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  singer:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  style:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_name:
+  - text: 好哒,请问您还有别的需求吗?比如:喜欢的音乐
+  - text: get了,请问您有喜欢听的歌曲吗?
+  utter_ask_singer:
+  - text: 好哒,请问您还有别的需求吗?比如:喜欢的歌手
+  - text: get了,请问您还喜欢哪位歌手吗?
+  utter_ask_style:
+  - text: 好哒,请问您还有别的需求吗?比如:喜欢的风格
+  - text: get了,请问您还喜欢什么风格的音乐吗?我们可以为您提供情歌,民谣,
+  - text: 好哒,请问您还有喜欢的音乐风格吗?我们有如下风格音乐供您选择：兴奋,浪漫,民谣,放松,摇滚,流行,怀旧等等~
+  utter_default:
+  - text: 对不起,没能找到您所需要的信息,目前我们只能提供查询歌曲,歌手,歌曲风格的服务
+  utter_goodbye:
+  - text: 再见，为您服务很开心
+  - text: Bye，下次再见
+  utter_greet:
+  - text: 您好!我是小歌，很高兴为您服务。请问您有喜爱的歌手吗？
+  - text: 您好!我是小歌，很高兴为您服务。请问您有偏爱的音乐风格吗？
+  - text: 您好!我是小歌，很高兴为您服务。请问您有想听的曲目吗？
+  - text: 你好!我是小歌，可以帮您播放喜欢的音乐。请问您有喜爱的歌手吗？
+  - text: 你好!我是小冰的妹妹交大小歌，可以帮您播放喜欢的音乐。请问您有偏爱的音乐风格吗？
+  - text: 你好!我是小歌，可以帮您播放喜欢的音乐。请问您有想听的曲目吗？
+  utter_thanks:
+  - text: 不用谢
+  - text: 我应该做的
+  - text: 您开心我就开心
