@@ -1,6 +1,6 @@
 # Xhome_bjtu
 
-1.训练NLU
+1.训练NLU  
 python -m rasa_nlu.train --data ./data/music_nlu_data.json --config ivr_chatbot.yml --path models --fixed_model_name demo --project ivr_nlu
 
 python -m rasa_nlu.train --data ./data/music_nlu_data.json \
