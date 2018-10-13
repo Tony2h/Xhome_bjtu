@@ -5,7 +5,7 @@ python -m rasa_nlu.train --data ./data/music_nlu_data.json --config ivr_chatbot.
 
 #训练数据在路径data/xxx,配置文件在xxx.yml,训练好的数据在path(models/xxx)/project(ivr_nlu)/fixed_model_name(demo)里
 
-**2.服务器检验抽取实体** 
+**2.服务器检验抽取实体**   
 开启服务器监听:  
 python -m rasa_nlu.server -c ivr_chatbot.yml --path models
 发送请求:  
