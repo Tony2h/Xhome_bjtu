@@ -3,13 +3,7 @@
 **1.训练NLU**   
 python -m rasa_nlu.train --data ./data/music_nlu_data.json --config ivr_chatbot.yml --path models --fixed_model_name demo --project ivr_nlu
 
-python -m rasa_nlu.train --data ./data/music_nlu_data.json \
-    --config ivr_chatbot.yml \
-    --path models \
-    --fixed_model_name demo \
-    --project ivr_nlu
-#训练数据在路径data/xxx,配置文件在xxx.yml,训练好的数据在path(models/xxx)/
- /project(ivr_nlu)/fixed_model_name(demo)里
+#训练数据在路径data/xxx,配置文件在xxx.yml,训练好的数据在path(models/xxx)/project(ivr_nlu)/fixed_model_name(demo)里
 
 **2.服务器检验抽取实体** 
 开启服务器监听:  
