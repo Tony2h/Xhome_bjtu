@@ -522,3 +522,15 @@
 * thanks
     - utter_thanks
     - export
+
+## Generated Story -3713081885830367531
+* greet
+    - utter_greet
+* request_search{"style": "\u6447\u6eda"}
+    - slot{"style": "\u6447\u6eda"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
