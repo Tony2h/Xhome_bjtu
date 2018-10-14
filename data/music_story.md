@@ -534,3 +534,17 @@
 * thanks
     - utter_thanks
     - export
+    
+    
+## Generated Story 6003116229230733046
+* greet
+    - utter_greet
+* request_search{"name": "\u5bb9\u6613\u53d7\u4f24\u7684\u5973\u4eba"}
+    - slot{"name": "\u5bb9\u6613\u53d7\u4f24\u7684\u5973\u4eba"}
+    - action_search_listen
+* inform_singer{"singer": "\u738b\u83f2"}
+    - slot{"singer": "\u738b\u83f2"}
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
