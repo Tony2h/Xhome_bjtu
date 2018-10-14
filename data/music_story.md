@@ -510,3 +510,15 @@
     - slot{"singer": "\u6c6a\u5cf0"}
     - action_search_consume
     - export
+
+## Generated Story -471596764134376981
+* greet
+    - utter_greet
+* request_search{"style": "\u6d41\u884c"}
+    - slot{"style": "\u6d41\u884c"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
