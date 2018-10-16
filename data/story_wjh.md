@@ -1096,3 +1096,30 @@
 * thanks
     - utter_thanks
     - export
+
+## Generated Story -5154901670771264749
+* greet
+    - utter_greet
+* request_search{"style": "\u6447\u6eda"}
+    - slot{"style": "\u6447\u6eda"}
+    - action_search_listen
+* satisfy
+    - action_search_consume
+* thanks
+    - utter_thanks
+    - export
+
+## Generated Story 7439442306899904144
+* request_search{"name": "\u5343\u5e74\u7a7a\u57ce"}
+    - slot{"name": "\u5343\u5e74\u7a7a\u57ce"}
+    - action_search_consume
+* greet
+    - utter_greet
+* request_search{"singer": "\u5468\u6770\u4f26", "name": "\u544a\u767d\u6c14\u7403"}
+    - slot{"name": "\u544a\u767d\u6c14\u7403"}
+    - slot{"singer": "\u5468\u6770\u4f26"}
+    - action_search_listen
+    - action_search_consume
+* end
+    - utter_thanks
+    - export
